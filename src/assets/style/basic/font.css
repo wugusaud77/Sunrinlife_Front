@@ -1,0 +1,13 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+.font-bold {
+    font-family: "GmarketSansBold";
+}
+
+.font-medium {
+    font-family: "GmarketSansMedium";
+}
+
+.font-light {
+    font-family: "GmarketSansLight";
+}

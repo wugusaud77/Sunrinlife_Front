@@ -1,0 +1,59 @@
+/* 메뉴바 애니메이션 */
+.nav-bar-enter-from, .nav-bar-leave-to{
+    transform: translateX(-100%);
+}
+
+.nav-bar-enter-active, .nav-bar-leave-active {
+    transition: 300ms;
+}
+
+.nav-bar-enter-to, .nav-bar-leave-from{
+    transform: translateX(0%);
+}
+
+/* .nav-bar-leave-to{
+    transform: translateX(-100%);
+} */
+
+/* 메뉴바 배경 애니메이션 */
+.nav-bg-enter-from, .nav-bg-leave-to {
+    opacity: 0;
+}
+
+.nav-bg-enter-active, .nav-bg-leave-active  {
+    transition: 300ms;
+}
+
+.nav-bg-enter-to, .nav-bg-leave-from {
+    opacity: 1;
+}
+
+/* 공지 아이콘 에디메이션 */
+.notice-icon-enter-from {
+    transform: scale(0);
+}
+
+.notice-icon-enter-active {
+    transition: 300ms;
+}
+
+.notice-icon-enter-to {
+    transform: scale(1);
+}
+
+/* 로고 돌아가는 애니메이션 */
+
+.logo-rotate-animation {
+    animation-name: rotaeYInfinit;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotaeYInfinit {
+    0%, 70% {
+        transform: rotateY(0turn);
+    }
+    100% {
+        transform: rotateY(1turn);
+    }
+}
